@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, button } from 'reactstrap';
+import { Jumbotron, button, img} from 'reactstrap';
 
 
 class BuildJumbotron extends Component {
@@ -18,12 +18,12 @@ class BuildJumbotron extends Component {
                     <div className="row">
                         <div className="col">
                             <div class="input-group">
-                                <div class="form-outline">
-                                    <input type="search" id="form1" class="form-control" />
-                                    <label class="form-label" for="form1">Search</label>
+                                <div className="form-outline">
+                                    <input type="search" id="form1" className="form-control" />
+                                    <label className="form-label" for="form1">Search</label>
                                 </div>
-                                <button type="button" class="btn btn-primary">
-                                    <i class="fas fa-search"></i>
+                                <button type="button" className="btn btn-primary">
+                                    <i className="fas fa-search"></i>
                                 </button>
                             </div>
                         </div>
@@ -34,4 +34,4 @@ class BuildJumbotron extends Component {
     }
 }
 
-export default BuildJumbotron;
+export default BuildJumbotron; 
