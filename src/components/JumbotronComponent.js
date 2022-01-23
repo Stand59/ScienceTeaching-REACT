@@ -8,23 +8,13 @@ class BuildJumbotron extends Component {
             <Jumbotron>
                 <div className="container">
                     <div className="row">
-                        <div className="col">
+                        <div className="col-10">
                             <h1>Science</h1>
                             <h2>Activities for Your Classroom</h2>
                         </div>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                            <div class="input-group">
-                                <div className="form-outline">
-                                    <input type="search" id="form1" className="form-control" />
-                                    <label className="form-label" for="form1">Search</label>
-                                </div>
-                                <button type="button" className="btn btn-primary">
-                                    <i className="fas fa-search"></i>
-                                </button>
+                        <div className="col-2">
+                            <div class="topnav">
+                                <input type="text" placeholder="Search.."/>
                             </div>
                         </div>
                     </div>
