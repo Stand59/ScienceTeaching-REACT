@@ -3,6 +3,7 @@ import './App.css';
 
 import BuildNav from './components/NavbarComponent';
 import BuildJumbotron from './components/JumbotronComponent';
+import BuildFooter from './components/FooterComponent';
 
 class App extends Component {
     render() {
@@ -10,6 +11,7 @@ class App extends Component {
             <div className="App">
                 <BuildJumbotron />
                 <BuildNav/>
+                <BuildFooter/>
             </div>
         );
     }
