@@ -9,7 +9,7 @@ class EighthGrade extends Component {
                 {
                     id: 0,
                     name: 'PBS Organization of the Periodic Table',
-                    image: 'public/assets/images/PBS.png',
+                    image: 'assets/images/PBS.jpg',
                     link: 'https://www.pbs.org/video/chemistry-physics-chemistry-402-organization-periodic-table/',
                     description: 'A 28 minute long explanation as to how the periodic table is organized.',
                     type: 'Video'
@@ -17,7 +17,7 @@ class EighthGrade extends Component {
                 {
                     id: 1,
                     name: 'Legends of Learning',
-                    image: 'public/assets/images/LegendsOfLearning',
+                    image: 'assets/images/LegendsOfLearning.png',
                     link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
                     description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
                 }
