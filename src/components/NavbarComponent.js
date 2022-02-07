@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavItem, Navlink } from 'reactstrap';
 
 class BuildNav extends Component {
     
@@ -7,7 +7,14 @@ class BuildNav extends Component {
         return(
             <Navbar dark color="primary">
                 <div className="container">
-                    <NavbarBrand href="/">Science</NavbarBrand>
+                    <NavbarBrand href="/">Home</NavbarBrand>
+                    <Nav navbar>
+                        <NavItem>
+                            <i className="fa fa-home fa-lg" /> Home
+                            <i className="fa fa-home fa-lg" /> 8th
+                            <i className="fa fa-home fa-lg" /> Biology
+                        </NavItem>
+                    </Nav>
                 </div>
             </Navbar>
         );

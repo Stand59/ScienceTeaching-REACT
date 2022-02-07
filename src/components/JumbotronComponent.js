@@ -13,7 +13,7 @@ class BuildJumbotron extends Component {
                             <h2>Activities for Your Classroom</h2>
                         </div>
                         <div className="col-2">
-                            <div class="topnav">
+                            <div className="topnav">
                                 <input type="text" placeholder="Search.."/>
                             </div>
                         </div>

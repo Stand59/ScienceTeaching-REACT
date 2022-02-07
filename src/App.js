@@ -5,6 +5,7 @@ import background from "./images/background.jpg";
 import BuildNav from './components/NavbarComponent';
 import BuildJumbotron from './components/JumbotronComponent';
 import BuildFooter from './components/FooterComponent';
+import EighthGrade from './components/EighthGradeComponent';
 
 class App extends Component {
 
@@ -15,7 +16,7 @@ class App extends Component {
                 <BuildJumbotron />
                 <BuildNav/>
                 <div style={{ backgroundImage: `url(${background})` }}>
-                
+                    <EighthGrade/>
                 </div>
                 <BuildFooter/>
             </div>
