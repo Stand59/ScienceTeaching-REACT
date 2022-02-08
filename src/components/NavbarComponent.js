@@ -5,7 +5,7 @@ class BuildNav extends Component {
     
     render(){
         return(
-            <Navbar dark color="primary">
+            <Navbar style={{backgroundColor: 'blue'}}>
                 <div className="container">
                     <NavbarBrand href="/">Home</NavbarBrand>
                     <Nav navbar>

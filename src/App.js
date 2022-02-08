@@ -18,7 +18,7 @@ class App extends Component {
                 <div style={{ backgroundImage: `url(${background})` }}>
                     <EighthGrade/>
                 </div>
-                <BuildFooter/>
+                <BuildFooter />
             </div>
         );
     }

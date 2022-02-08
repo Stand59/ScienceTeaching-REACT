@@ -20,6 +20,34 @@ class EighthGrade extends Component {
                     image: 'assets/images/LegendsOfLearning.png',
                     link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
                     description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
+                },
+                {
+                    id: 1,
+                    name: 'Legends of Learning',
+                    image: 'assets/images/LegendsOfLearning.png',
+                    link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
+                    description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
+                },
+                {
+                    id: 1,
+                    name: 'Legends of Learning',
+                    image: 'assets/images/LegendsOfLearning.png',
+                    link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
+                    description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
+                },
+                {
+                    id: 1,
+                    name: 'Legends of Learning',
+                    image: 'assets/images/LegendsOfLearning.png',
+                    link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
+                    description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
+                },
+                {
+                    id: 1,
+                    name: 'Legends of Learning',
+                    image: 'assets/images/LegendsOfLearning.png',
+                    link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
+                    description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
                 }
             ],
         };
@@ -28,10 +56,10 @@ class EighthGrade extends Component {
     render() {
         const eighthGrade = this.state.resources.map( resource => {
             return (
-                <div className="col">
-                    <Card style={{ width: '18rem' }}>
-                        <CardImg varient="top" src={resource.image}/>
-                        <CardBody>
+                <div className="col-4">
+                    <Card style={{ width: '18rem', height: '26rem', marginTop: '12%', marginBottom: '12%' }}>
+                        <CardImg varient="top" src={resource.image} style={{height: '12rem'}}/>
+                        <CardBody style={{backgroundColor: 'blue'}}>
                             <CardTitle>{resource.name}</CardTitle>
                             <CardText>
                                 {resource.description}

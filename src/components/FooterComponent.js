@@ -4,7 +4,7 @@ import { Footer } from 'reactstrap';
 class BuildFooter extends Component {
     render(){
         return (
-            <footer>
+            <footer style={{backgroundColor: 'blue'}}>
                 <div className='container'>
                     <div className='row'>
                         <div clasName="col">
