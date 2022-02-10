@@ -8,19 +8,19 @@ class Biology extends Component {
     }
 
     render() {
-        const biology = this.props.resources.map( resource => {
+        const biology = this.props.biologyResources.map( biologyResource => {
             return (
-                <div key={resource.id} className="col-4">
+                <div key={biologyResource.id} className="col-4">
                     <Card style={{ width: '18rem', height: '26rem', marginTop: '12%', marginBottom: '12%' }}>
-                        <a href={resource.link}>
-                            <CardImg varient="top" src={resource.image} style={{height: '12rem'}}/>
+                        <a href={biologyResource.link}>
+                            <CardImg varient="top" src={biologyResource.image} style={{height: '12rem'}}/>
                         </a>
                         <CardBody style={{backgroundColor: 'blue'}}>
-                            <CardTitle>{resource.name}</CardTitle>
+                            <CardTitle>{biologyResource.name}</CardTitle>
                             <CardText>
-                                {resource.description}
+                                {biologyResource.description}
                             </CardText>
-                            <a href={resource.link}>
+                            <a href={biologyResource.link}>
                                 <Button variant="primary">Explore</Button>
                             </a>
                         </CardBody>

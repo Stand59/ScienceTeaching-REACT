@@ -1,12 +1,13 @@
 import Home from './HomeComponent';
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { RESOURCES } from '../shared/resources'
+import { EIGHTHRESOURCES } from '../shared/EighthResources'
 
 import EighthGrade from './EighthGradeComponent';
 import BuildFooter from './FooterComponent';
 import BuildHeader from './HeaderComponent';
 import Biology from './BiologyComponent';
+import { BIOLOGYRESOURCES } from '../shared/BiologyResources';
 
 
 class Main extends Component {
@@ -14,7 +15,8 @@ class Main extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            resources: RESOURCES
+            eighthResources: EIGHTHRESOURCES,
+            biologyResources: BIOLOGYRESOURCES
         };
     }
 
@@ -31,8 +33,8 @@ class Main extends Component {
                 <BuildHeader />
                 <Switch>
                     <Route path='/home' component={HomePage} />
-                    <Route exact path='/8th' render={() => <EighthGrade resources={this.state.resources} />} />
-                    <Route exact path='/biology' render={() => <Biology resources={this.state.resources} />} />
+                    <Route exact path='/8th' render={() => <EighthGrade eighthResources={this.state.eighthResources} />} />
+                    <Route exact path='/biology' render={() => <Biology biologyResources={this.state.biologyResources} />} />
                     <Redirect to='/home' />
                 </Switch>
                 <BuildFooter />

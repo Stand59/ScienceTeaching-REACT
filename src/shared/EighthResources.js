@@ -1,4 +1,4 @@
-export const RESOURCES = [
+export const EIGHTHRESOURCES = [
     {
         id: 0,
         name: 'PBS Organization of the Periodic Table',

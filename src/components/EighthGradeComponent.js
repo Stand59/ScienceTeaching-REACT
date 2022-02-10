@@ -8,19 +8,19 @@ class EighthGrade extends Component {
     }
 
     render() {
-        const eighthGrade = this.props.resources.map( resource => {
+        const eighthGrade = this.props.eighthResources.map( eighthResource => {
             return (
-                <div key={resource.id} className="col-4">
+                <div key={eighthResource.id} className="col-4">
                     <Card style={{ width: '18rem', height: '26rem', marginTop: '12%', marginBottom: '12%' }}>
-                        <a href={resource.link}>
-                            <CardImg varient="top" src={resource.image} style={{height: '12rem'}}/>
+                        <a href={eighthResource.link}>
+                            <CardImg varient="top" src={eighthResource.image} style={{height: '12rem'}}/>
                         </a>
                         <CardBody style={{backgroundColor: 'blue'}}>
-                            <CardTitle>{resource.name}</CardTitle>
+                            <CardTitle>{eighthResource.name}</CardTitle>
                             <CardText>
-                                {resource.description}
+                                {eighthResource.description}
                             </CardText>
-                            <a href={resource.link}>
+                            <a href={eighthResource.link}>
                                 <Button variant="primary">Explore</Button>
                             </a>
                         </CardBody>
