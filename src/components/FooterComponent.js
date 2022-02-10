@@ -10,9 +10,9 @@ class BuildFooter extends Component {
                     <div className="col-4 col-sm-2 offset-1">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Directory</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/8th">8th</a></li>
+                            <li><a href="/biology">Biology</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>

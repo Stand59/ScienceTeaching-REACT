@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import './App.css';
 import background from "./images/background.jpg";
 
-import BuildNav from './components/NavbarComponent';
+import BuildNav from './components/HeaderComponent';
 import BuildJumbotron from './components/JumbotronComponent';
 import BuildFooter from './components/FooterComponent';
 import EighthGrade from './components/EighthGradeComponent';

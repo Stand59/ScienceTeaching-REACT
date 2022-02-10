@@ -5,8 +5,8 @@ import { RESOURCES } from '../shared/resources'
 
 import EighthGrade from './EighthGradeComponent';
 import BuildFooter from './FooterComponent';
-import BuildNav from './NavbarComponent';
-import BuildJumbotron from './JumbotronComponent';
+import BuildHeader from './HeaderComponent';
+import Biology from './BiologyComponent';
 
 
 class Main extends Component {
@@ -28,11 +28,11 @@ class Main extends Component {
 
         return (
             <div>
-                <BuildJumbotron />
-                <BuildNav />
+                <BuildHeader />
                 <Switch>
                     <Route path='/home' component={HomePage} />
-                    <Route exact path='/eighthGrade' render={() => <EighthGrade resources={this.state.resources} />} />
+                    <Route exact path='/8th' render={() => <EighthGrade resources={this.state.resources} />} />
+                    <Route exact path='/biology' render={() => <Biology resources={this.state.resources} />} />
                     <Redirect to='/home' />
                 </Switch>
                 <BuildFooter />
