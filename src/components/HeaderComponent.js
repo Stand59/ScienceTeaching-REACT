@@ -46,12 +46,12 @@ class BuildHeader extends Component {
                                         </NavItem>
                                         <NavItem>
                                             <NavLink className="nav-link" to="/8th">
-                                                <i className="fa fa-list fa-lg" /> 8th
+                                                <i className="fa fa-flask fa-lg" /> 8th
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
                                             <NavLink className="nav-link" to="/biology">
-                                                <i className="fa fa-info fa-lg" /> Biology
+                                                <i className="fa fa-globe fa-lg" /> Biology
                                             </NavLink>
                                         </NavItem>
                                         <NavItem>
