@@ -6,20 +6,19 @@ import BuildNav from './components/NavbarComponent';
 import BuildJumbotron from './components/JumbotronComponent';
 import BuildFooter from './components/FooterComponent';
 import EighthGrade from './components/EighthGradeComponent';
+import { BrowserRouter } from 'react-router-dom';
+import Main from './components/MainComponent';
 
 class App extends Component {
 
     render() {
 
         return (
-            <div className="App">
-                <BuildJumbotron />
-                <BuildNav/>
-                <div style={{ backgroundImage: `url(${background})` }}>
-                    <EighthGrade/>
+            <BrowserRouter>
+                <div className="App">
+                    <Main />
                 </div>
-                <BuildFooter />
-            </div>
+            </BrowserRouter>
         );
     }
 }
