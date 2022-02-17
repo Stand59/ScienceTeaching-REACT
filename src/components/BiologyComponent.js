@@ -31,7 +31,9 @@ class Biology extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <h1>Biology Resources</h1>
+                    <div className="col-12" style={{marginTop: '5%'}}>
+                        <h1>Biology Resources</h1>
+                    </div>
                 </div>
                 <div className="row">
                     {biology}

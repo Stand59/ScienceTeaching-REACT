@@ -10,28 +10,33 @@ class EighthGrade extends Component {
     render() {
         const eighthGrade = this.props.eighthResources.map( eighthResource => {
             return (
-                <div key={eighthResource.id} className="col-4">
-                    <Card style={{ width: '18rem', height: '26rem', marginTop: '12%', marginBottom: '12%' }}>
-                        <a href={eighthResource.link}>
-                            <CardImg varient="top" src={eighthResource.image} style={{height: '12rem'}}/>
-                        </a>
-                        <CardBody style={{backgroundColor: 'blue'}}>
-                            <CardTitle>{eighthResource.name}</CardTitle>
+                <div className="col">
+                    <div key={eighthResource.id} style={{
+                        alignItems: 'center',
+                        flex: 1,
+                        justifyContent: 'center',
+                    }}>
+                        <Card>
+                            <CardImg 
+                                src={eighthResource.image}
+                            />
+                            <CardTitle>
+                                {eighthResource.name}
+                            </CardTitle>
                             <CardText>
                                 {eighthResource.description}
                             </CardText>
-                            <a href={eighthResource.link}>
-                                <Button variant="primary">Explore</Button>
-                            </a>
-                        </CardBody>
-                    </Card>
+                        </Card>
+                    </div>
                 </div>
             );
         });
         return (
-            <div className="container">
+            <div className="container justify-content-center">
                 <div className="row">
-                    <h1>8th Grade Resources</h1>
+                    <div className="col-12" style={{marginTop: '5%'}}>
+                        <h1>8th Grade Resources</h1>
+                    </div>
                 </div>
                 <div className="row">
                     {eighthGrade}

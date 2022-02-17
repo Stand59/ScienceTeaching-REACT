@@ -31,12 +31,12 @@ class Main extends Component {
         return (
             <div>
                 <BuildHeader />
-                <Switch>
-                    <Route path='/home' component={HomePage} />
-                    <Route exact path='/8th' render={() => <EighthGrade eighthResources={this.state.eighthResources} />} />
-                    <Route exact path='/biology' render={() => <Biology biologyResources={this.state.biologyResources} />} />
-                    <Redirect to='/home' />
-                </Switch>
+                    <Switch>
+                        <Route path='/home' component={HomePage} />
+                        <Route exact path='/8th' render={() => <EighthGrade eighthResources={this.state.eighthResources} />} />
+                        <Route exact path='/biology' render={() => <Biology biologyResources={this.state.biologyResources} />} />
+                        <Redirect to='/home' />
+                    </Switch>
                 <BuildFooter />
             </div>
         );
