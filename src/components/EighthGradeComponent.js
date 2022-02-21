@@ -21,7 +21,7 @@ class EighthGrade extends Component {
                             width: '200px', 
                             marginTop: '20px',
                             marginBottom: '20px',
-                            backgroundColor: 'blue',
+                            backgroundColor: '#006bb3',
                             height: '325px'
                         }}>
                             <CardImg 
