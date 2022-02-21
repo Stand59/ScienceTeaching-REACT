@@ -8,6 +8,7 @@ import BuildFooter from './FooterComponent';
 import BuildHeader from './HeaderComponent';
 import Biology from './BiologyComponent';
 import { BIOLOGYRESOURCES } from '../shared/BiologyResources';
+import  ActivityComponent from './ActivityComponent';
 
 
 class Main extends Component {
@@ -44,4 +45,4 @@ class Main extends Component {
 }
         
 
-export default Main;
+export default Main;   

@@ -59,11 +59,6 @@ class BuildHeader extends Component {
                                                 <i className="fa fa-address-card fa-lg" /> Contact Us
                                             </NavLink>
                                         </NavItem>
-                                        <div className="col-4">
-                                            <div className="topnav">
-                                                <input type="text" placeholder="Search.."/>
-                                            </div>
-                                        </div>
                                     </Nav>
                                 </Collapse>
                             </div>

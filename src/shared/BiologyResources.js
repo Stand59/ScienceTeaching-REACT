@@ -46,5 +46,21 @@ export const BIOLOGYRESOURCES = [
         link: 'https://www.pbs.org/wgbh/nova/article/everything-you-need-to-teach-evolution/',
         description: 'NOVA has a list of different resources to teach evolution',
         type: 'link list'
-    }
+    },
+    {
+        id: 6,
+        name: 'NOVA PBS list of Evolution Resources',
+        image: 'assets/images/evolution.png',
+        link: 'https://www.pbs.org/wgbh/nova/article/everything-you-need-to-teach-evolution/',
+        description: 'NOVA has a list of different resources to teach evolution',
+        type: 'link list'
+    },
+    {
+        id: 7,
+        name: 'NOVA PBS list of Evolution Resources',
+        image: 'assets/images/evolution.png',
+        link: 'https://www.pbs.org/wgbh/nova/article/everything-you-need-to-teach-evolution/',
+        description: 'NOVA has a list of different resources to teach evolution',
+        type: 'link list'
+    },
 ]

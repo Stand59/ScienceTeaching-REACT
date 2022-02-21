@@ -69,6 +69,11 @@
   flex-basis: calc(33.3333% - 40px);
 }
 
+.card {
+  margin-bottom: '35px';
+  margin-top: '30px';
+  width: '200px';
+}
 
 
 

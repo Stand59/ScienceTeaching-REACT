@@ -10,21 +10,47 @@ class Biology extends Component {
     render() {
         const biology = this.props.biologyResources.map( biologyResource => {
             return (
-                <div key={biologyResource.id} className="col-4">
-                    <Card style={{ width: '18rem', height: '26rem', marginTop: '12%', marginBottom: '12%' }}>
-                        <a href={biologyResource.link}>
-                            <CardImg varient="top" src={biologyResource.image} style={{height: '12rem'}}/>
-                        </a>
-                        <CardBody style={{backgroundColor: 'blue'}}>
-                            <CardTitle>{biologyResource.name}</CardTitle>
-                            <CardText>
+                <div className="col">
+                    <div key={biologyResource.id} style={{
+                        alignItems: 'center',
+                        flex: 1,
+                        justifyContent: 'center',
+                    }}>
+                        <Card style={{
+                            width: '200px', 
+                            marginTop: '20px',
+                            marginBottom: '20px',
+                            backgroundColor: 'blue',
+                            height: '325px'
+                        }}>
+                            <CardImg 
+                                className="img-fluid"
+                                src={biologyResource.image}
+                                style={{height: '140px' }}
+                            />
+                            <CardTitle style={{
+                                fontSize: '20px',
+                                color: '#000000'
+                            }}>
+                                {biologyResource.name}
+                            </CardTitle>
+                            <CardText style={{
+                                fontSize: '12px',
+                                color: '#000000'
+                            }}>
                                 {biologyResource.description}
                             </CardText>
-                            <a href={biologyResource.link}>
-                                <Button variant="primary">Explore</Button>
-                            </a>
-                        </CardBody>
-                    </Card>
+                            <Button style={{
+                                position: 'absolute',
+                                bottom: '10px',
+                                left: '47px',
+                                width: '50%',
+                                backgroundColor: '#000000',
+                            }}>
+                                Explore
+                            </Button>
+                        </Card>
+                    </div>
                 </div>
             );
         });

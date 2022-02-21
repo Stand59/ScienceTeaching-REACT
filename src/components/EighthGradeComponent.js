@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { Button, CardBody, CardImg, CardTitle, CardText, Card } from 'reactstrap';
+import {CardImg, CardTitle, CardText, Card, Button} from 'reactstrap';
+
 
 
 class EighthGrade extends Component {
@@ -16,16 +17,39 @@ class EighthGrade extends Component {
                         flex: 1,
                         justifyContent: 'center',
                     }}>
-                        <Card>
+                        <Card style={{
+                            width: '200px', 
+                            marginTop: '20px',
+                            marginBottom: '20px',
+                            backgroundColor: 'blue',
+                            height: '325px'
+                        }}>
                             <CardImg 
+                                className="img-fluid"
                                 src={eighthResource.image}
+                                style={{height: '140px' }}
                             />
-                            <CardTitle>
+                            <CardTitle style={{
+                                fontSize: '20px',
+                                color: '#000000'
+                            }}>
                                 {eighthResource.name}
                             </CardTitle>
-                            <CardText>
+                            <CardText style={{
+                                fontSize: '12px',
+                                color: '#000000'
+                            }}>
                                 {eighthResource.description}
                             </CardText>
+                            <Button style={{
+                                position: 'absolute',
+                                bottom: '10px',
+                                left: '47px',
+                                width: '50%',
+                                backgroundColor: '#000000',
+                            }}>
+                                Explore
+                            </Button>
                         </Card>
                     </div>
                 </div>

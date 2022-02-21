@@ -41,5 +41,19 @@ export const EIGHTHRESOURCES = [
         image: 'assets/images/LegendsOfLearning.png',
         link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
         description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
+    },
+    {
+        id: 6,
+        name: 'Legends of Learning',
+        image: 'assets/images/LegendsOfLearning.png',
+        link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
+        description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
+    },
+    {
+        id: 7,
+        name: 'Legends of Learning',
+        image: 'assets/images/LegendsOfLearning.png',
+        link: 'https://games.legendsoflearning.com/game/sun-bubble-popper/38?partner=legends-public&media=video',
+        description: 'Not a free resource, but can gain access to multiple online games that introduce planet science.'
     }
 ]
