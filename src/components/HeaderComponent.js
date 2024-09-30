@@ -25,7 +25,7 @@ class BuildHeader extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-10">
-                                <h1>Science Activities</h1>
+                                <h1>Science Activities for Your Classroom</h1>
                                 <h2>for Your Classroom</h2>
                             </div>
 
